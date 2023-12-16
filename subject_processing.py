@@ -6,8 +6,8 @@ from labeling import get_labels
 import matplotlib.pyplot as plt
 
 def process_single_subject(subject_id, base_dir):
-    raw_file_path = f'{base_dir}/data/sing_aud/{subject_id}_task-words_meg.fif'
-    event_file_path = f'{base_dir}/data/sing_aud/{subject_id}_task-words_events.tsv'
+    raw_file_path = f'{base_dir}/data/{subject_id}_task-words_meg.fif'
+    event_file_path = f'{base_dir}/data/{subject_id}_task-words_events.tsv'
 
     # Load raw data and process events
     raw = load_raw_data(raw_file_path)
