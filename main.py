@@ -29,8 +29,8 @@ def process_subjects(subject_ids):
     
     for subject_id in subject_ids:
         #CHANGE FILE PATH
-        raw_file_path = f'C:/python tt/eegproject/data/sing_aud/{subject_id}_task-words_meg.fif'
-        event_file_path = f'C:/python tt/eegproject/data/sing_aud/{subject_id}_task-words_events.tsv'
+        raw_file_path = f'CHANGE FILE PATH/data/{subject_id}_task-words_meg.fif'
+        event_file_path = f'CHANGE FILE PATH/data/{subject_id}_task-words_events.tsv'
         X, y, epochs = process_single_subject(subject_id, change_direc)  
         # Load raw data and process events
         raw = load_raw_data(raw_file_path)
