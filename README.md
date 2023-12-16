@@ -12,3 +12,5 @@ line 33: event_file_path = f'C:/python tt/eegproject/data/sing_aud/{subject_id}_
 Line 10: raw_file_path = f'C:/python tt/eegproject/data/sing_aud/{subject_id}_task-words_meg.fif' Change to file path that leads to .fif files
 Line 45: base_data_folder = 'c:/Users/eran/Desktop/vep_projects/sing_aud/audi_sing_word_meg' Change to file path that leads to .fif files
 
+**meg_subject_plot.py**
+It is it's own file, can be used to plot data before processing.
